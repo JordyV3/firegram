@@ -4,10 +4,13 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div>FIREGRAM</div>
-        <div>
-          <i className='fab fa-firstdraft' />
+        <div>FIREGRAM
+        <i className='fab fa-firstdraft' />
         </div>
+        <div className="nombre__navbar">
+        <p className="nombre">Jordy Vega | 2021</p>
+        </div>
+       
       </nav>
     </>
   );
