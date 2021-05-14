@@ -2,20 +2,17 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
-// Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyDDwo_hbuEhMau3b9Q89y4m50E_6S6Z5PE",
-    authDomain: "firegram-ffc1b.firebaseapp.com",
-    projectId: "firegram-ffc1b",
-    storageBucket: "firegram-ffc1b.appspot.com",
-    messagingSenderId: "194018854523",
-    appId: "1:194018854523:web:8f25fa6787b069cbca84de",
-    measurementId: "G-5X919ZDXBF"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-//   firebase.analytics();
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+  apiKey: "AIzaSyAtKsPiMD5PRTLQ5oGXkw9HTVayh01Dtuo",
+  authDomain: "firegram1-a736d.firebaseapp.com",
+  projectId: "firegram1-a736d",
+  storageBucket: "firegram1-a736d.appspot.com",
+  messagingSenderId: "1024660802647",
+  appId: "1:1024660802647:web:abd19463f37858e21e6712"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 const projectStorage = firebase.storage();
 const projectFirestore = firebase.firestore();
